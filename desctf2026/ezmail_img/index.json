@@ -1,0 +1,1 @@
+{"schemaVersion":2,"mediaType":"application/vnd.oci.image.index.v1+json","manifests":[{"mediaType":"application/vnd.oci.image.manifest.v1+json","digest":"sha256:b7b3403a398e3524f680514c58bf2765fae3abeb99c1ff3bbaf94b78c7a0ed66","size":1761,"annotations":{"io.containerd.image.name":"docker.io/library/ezmail_img:latest","org.opencontainers.image.ref.name":"latest"}}]}
