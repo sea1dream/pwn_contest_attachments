@@ -1,0 +1,10 @@
+services:
+  chronos-ring1:
+    build: .
+    ports:
+      - "10001:10001"
+    cpus: 8
+    restart: always
+    privileged: true
+    devices:
+      - /dev/kvm:/dev/kvm

@@ -1,0 +1,10 @@
+services:
+  subox:
+    build: .
+    image: su_box
+    ports:
+      - "10008:10008"
+    security_opt:
+      - seccomp=unconfined
+    restart: unless-stopped
+    pids_limit: 64
